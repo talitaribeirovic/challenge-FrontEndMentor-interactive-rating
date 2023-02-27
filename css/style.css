@@ -1,0 +1,132 @@
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 0.9375rem;
+  background-color: var(--netral-veryDark-color);
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 20px;
+}
+
+button {
+  font-family: inherit;
+}
+
+.container,
+.thank-you-state {
+  background-color: var(--netral-dark-color);
+  padding: 1.5rem;
+  max-width: 350px;
+  border-radius: 0.625rem;
+}
+
+.container .left-star {
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--netral-medium-dark-color);
+}
+
+.container .title {
+  color: var(--netral-color);
+  margin: 2rem 0 1rem;
+}
+
+.container .text {
+  line-height: 1.8;
+  color: var(--netral-light-color);
+  margin-bottom: 1rem;
+}
+
+.container .btn-rates {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+
+}
+
+.container .btn-rates .btn {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background-color: var(--netral-medium-dark-color);
+  color: var(--netral-color);
+  border-radius: 50%;
+  padding-top: 0.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container .btn-rates .btn:hover {
+  background-color: var(--primary-color);
+}
+
+.container .btn-rates .btn:focus {
+  background-color: var(--netral-light-color);
+}
+
+.btn-submit {
+  background-color: var(--primary-color);
+  width: 100%;
+  padding: 0.8rem 0 0.6rem;
+  border-radius: 30px;
+  color: var(--netral-color);
+  border: none;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-submit:hover{
+  background-color: var(--netral-color);
+  color: var(--primary-color);
+}
+
+.thank-you-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  ;
+}
+
+.thank-you-state .detals {
+  background-color: var( --netral-medium-dark-color);
+  border-radius: 30px ;
+  color: var(--primary-color);
+  padding: 0.6rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.thank-you-state .title {
+  color: var(--netral-color);
+}
+
+.thank-you-state .text {
+  line-height: 1.8;
+  color: var(--netral-light-color);
+  margin-bottom: 2rem;
+}
+
+
+.attribution {
+  color: var( --netral-medium-dark-color);
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--primary-color);
+}
+
+.hidden {
+  display: none;
+}
